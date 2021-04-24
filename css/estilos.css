@@ -24,31 +24,34 @@ header div nav ul li a:hover {
 
 /* main */
 main {
-  padding-bottom: 2vh;
-  margin-bottom: 2vh; }
+  padding-top: 16vh;
+  padding-bottom: 12vh; }
 
 /* footer */
 .footer {
-  bottom: 0; }
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+footer div div ul span {
+  margin: 0;
+  padding: 0; }
 
 .footer__list {
   background-color: #373737;
   color: whitesmoke;
-  padding: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   box-sizing: border-box;
-  width: 100%;
-  position: fixed;
   left: 0;
   bottom: 0;
-  display: flex;
-  flex-direction: row; }
+  display: block; }
 
 .footer .footer__links {
   flex-wrap: wrap;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: space-around; }
+  flex-direction: row; }
 
 footer ul li {
   text-decoration: none;
@@ -61,9 +64,13 @@ footer ul li a {
 footer ul li a i {
   color: whitesmoke; }
 
-footer small {
+.footer__copyright {
+  display: block; }
+
+.footer__small {
   color: whitesmoke;
-  padding: 3vh; }
+  padding-top: 3vh;
+  padding-bottom: 3vh; }
 
 footer ul li a:hover {
   color: #c8ff00;
@@ -77,39 +84,39 @@ footer ul li a i:hover {
 /* elementos de texto */
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 7vh;
-  margin-bottom: 1rem; }
+  margin-bottom: 4vh; }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 6vh;
-  margin-bottom: 1rem; }
+  margin-bottom: 4vh; }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 5vh;
-  margin-bottom: 1rem; }
+  margin-bottom: 3vh; }
 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 4vh;
-  margin-bottom: 1rem; }
+  margin-bottom: 2vh; }
 
 h5 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 3vh;
-  margin-bottom: 1rem; }
+  margin-bottom: 2vh; }
 
 h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 2vh;
-  margin-bottom: 1rem; }
+  margin-bottom: 2vh; }
 
 body {
   margin-top: 1rem;
@@ -155,6 +162,29 @@ body {
   font-weight: 600;
   color: #373737; }
 
+/* cards */
+.card {
+  border-style: none; }
+
+.card-body {
+  /*     border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-width: thin;
+    border-color: rgb(55, 55, 55); */
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  background-color: white;
+  margin-bottom: 6vh; }
+
+.card-title {
+  font-weight: 500;
+  font-size: 4vh; }
+
+.card-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
 /* index */
 main .index {
   font-family: 'Open Sans', sans-serif;
@@ -187,82 +217,35 @@ main .index {
   font-weight: 600; }
 
 /* Proyectos */
+body {
+  background-color: #f1f2e9; }
+
 .proyectos {
   background-image: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  width: 100%;
-  padding-top: 15vh;
-  padding-bottom: 8vh;
-  margin-bottom: 8vh; }
+  width: 100%; }
 
 .badge {
   font-size: 14px; }
 
 .proyectos__A {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a14b7a106428403.5f8fbff77dd2e.jpg);
-  background-size: cover;
-  background-position: center;
-  /* grid-row-start: 1;
-    grid-column-start: 1;
-    grid-row-end: 1;
-    grid-column-end: 8;
-    padding: 1rem; */ }
+  margin-bottom: 8vw; }
 
 .proyectos__B {
-  background-image: url(../multimedia/0Artboard\1-00-01.jpg);
-  background-size: cover;
-  background-position: center;
-  /* background-color:darkslateblue; */
-  /* grid-row-start: 1;
-    grid-column-start: 8;
-    grid-row-end: 1;
-    grid-column-end: 16;
-    padding: 1rem; */ }
+  margin-bottom: 8vw; }
 
 .proyectos__C {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/c9578556365169.59abe1b21bdbf.jpg);
-  background-size: cover;
-  background-position: center;
-  /* background-color:darkorchid; */
-  /* grid-row-start: 2;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    grid-column-end: 6;
-    padding: 1rem; */ }
+  margin-bottom: 8vw; }
 
 .proyectos__D {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/58823857276055.59cf55475b3d0.jpg);
-  background-size: cover;
-  background-position: center;
-  /* background-color:darkmagenta; */
-  /* grid-row-start: 2;
-    grid-column-start: 6;
-    grid-row-end: 2;
-    grid-column-end: 10;
-    padding: 1rem; */ }
+  margin-bottom: 8vw; }
 
 .proyectos__E {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/e6757456365609.59abe941c3e3a.jpg);
-  background-size: cover;
-  background-position: center;
-  /* background-color:darkcyan; */
-  /* grid-row-start: 2;
-    grid-column-start: 10;
-    grid-row-end: 2;
-    grid-column-end: 16;
-    padding: 1rem; */ }
+  margin-bottom: 8vw; }
 
 .proyectos__New {
-  background-image: url(https://static.aimpasistemas.com/img/logo-3.svg);
-  background-size: cover;
-  background-position: center;
-  /* background-color:darkcyan; */
-  /* grid-row-start: 2;
-    grid-column-start: 10;
-    grid-row-end: 2;
-    grid-column-end: 16;
-    padding: 1rem; */ }
+  margin-bottom: 8vw; }
 
 .proyectos__A:hover {
   color: whitesmoke;
@@ -293,16 +276,7 @@ main .index {
   background-image: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  /* text-shadow: 1px 1px 1px rgb(55, 55, 55);
-    color: white;
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/a90e5856339319.59aa2d9692a5a.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-  width: 100%;
-  padding-top: 15vh;
-  padding-bottom: 8vh;
-  margin-bottom: 8vh; }
+  width: 100%; }
 
 .card {
   color: #373737;
