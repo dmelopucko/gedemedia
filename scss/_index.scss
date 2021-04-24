@@ -1,0 +1,36 @@
+/* index */
+
+main .index {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgb(55, 55, 55);
+    color: white;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/a90e5856339319.59aa2d9692a5a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+    height: 100vh;
+}
+
+.index .row .col-12 {
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.index p {
+    font-size: 18px;
+}
+
+.index h1 {
+    padding: 0;
+    margin: 0; 
+}
+
+.negrita {
+    font-weight: 600;
+}
