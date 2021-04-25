@@ -15,33 +15,11 @@
     margin-bottom: 8vw;
 }
 
-.proyectos__1 {
+.proyectos__1, .proyectos__2, .proyectos__3, .proyectos__4, .proyectos__5, .proyectos__6 {
     @extend .proyectos__margin
 }
-
-.proyectos__2 {
-    @extend .proyectos__margin
-}
-
-.proyectos__3 {
-    @extend .proyectos__margin
-}
-
-.proyectos__4 {
-    @extend .proyectos__margin
-}
-
-.proyectos__5 {
-    @extend .proyectos__margin
-}
-
-.proyectos__6 {
-    @extend .proyectos__margin
-}
-
 .proyectos__1:hover {
-    color:whitesmoke;
-    text-shadow: 1px 1px 4px darkslategrey;
+    color: $violeta-brillante;
 }
 
 .proyectos__2:hover {
@@ -62,4 +40,13 @@
 
 .proyectos__6:hover {
     @extend .proyectos__1:hover
+}
+
+.proyectos .animate__animated {
+    animation-play-state: paused;
+}
+
+.proyectos .animate__animated:hover {
+    animation-play-state: running;
+    animation-iteration-count: infinite;
 }

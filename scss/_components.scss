@@ -7,11 +7,11 @@ header {
 }
 
 .bg-light {
-    background-color: rgb(200, 255, 0) !important;
+    background-color: $verde-lima !important;
 }
 
 .nav-link, .navbar-brand, .navbar-toggler {
-    color: rgb(55, 55, 55) !important;
+    color: $gris-oscuro !important;
 }
 
 header div nav ul li a:hover {
@@ -32,7 +32,6 @@ header div nav ul li a:hover {
 /* main */
 
 main {
-    // margin-bottom: 8vh;
     padding-top: 16vh;
     padding-bottom: 12vh;
 }
@@ -41,73 +40,62 @@ main {
 
 .footer {
     bottom:0;
-    // height: max-content;
     width: 100%;
     padding:0;
     margin:0;
-}
 
-footer div div ul span {
-    margin: 0;
-    padding: 0;
-}
+    div div ul span {
+        margin: 0;
+        padding: 0;
+    }
 
-.footer__list {
-    background-color: rgb(55, 55, 55);
-    color: whitesmoke;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    box-sizing: border-box;
-    // position: fixed;
-    left: 0;
-    bottom: 0;
-    display: block;
-    // display: flex;
-    // flex-direction: row;
-}
+    .footer__list {
+        background-color: rgb(55, 55, 55);
+        color: whitesmoke;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        box-sizing: border-box;
+        left: 0;
+        bottom: 0;
+        display: block;
+    }
 
-.footer .footer__links {
+    .footer__links {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-    // align-items:center;
-    // align-content:space-around;
-}
+    }
 
-footer ul li {
-    text-decoration: none;
-    list-style: none;
-    padding-right: 2vh;
-}
+    ul li {
+        text-decoration: none;
+        list-style: none;
+        padding-right: 2vh;
+    }
 
-footer ul li a {
-    color:whitesmoke;
-}
+    ul li a {
+        color:whitesmoke;
+    }
 
-// footer ul li a i {
-//     color:whitesmoke;
-// }
+    ul li a:hover {
+        color:$verde-lima;
+        font-weight: 600;
+    }
 
-.footer__copyright {
-    display: block;
-    // height: 10vh;
-}
+    ul li a i:hover {
+        color:$verde-lima;
+        font-weight: 600;
+        font-size: 100%;
+    }
 
-.footer__small {
-    color:whitesmoke;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-}
+    .footer__copyright {
+        display: block;
+    }
 
-footer ul li a:hover {
-    color:rgb(200, 255, 0);
-    font-weight: 600;
-}
-
-footer ul li a i:hover {
-    color:rgb(200, 255, 0);
-    font-weight: 600;
-    font-size: 100%;
+    .footer__small {
+        color:whitesmoke;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
 }
 
 /* elementos de texto */
@@ -163,32 +151,13 @@ body {
 
 /* botones */
 
-/* button {
-    padding: 1.5vh;
-    padding-right: 3vh;
-    padding-left: 3vh;
-    margin: 4px 2px;
-    background-color:white;
-    color:rgb(55, 55, 55);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    border-radius: 24px;
-}
-
-/* button:hover {
-    background-color: rgb(200, 255, 0);
-    font-weight: 600;
-    color: rgb(55, 55, 55);
-} */
-
 .btn {
     padding: 1.5vh;
     padding-right: 3vh;
     padding-left: 3vh;
     margin: 4px 2px;
     background-color:white;
-    color:rgb(55, 55, 55);
+    color: $gris-oscuro;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -197,36 +166,31 @@ body {
 }
 
 .btn:hover {
-    background-color: rgb(200,255,0);
+    background-color: $verde-lima;
     background: linear-gradient(180deg, rgba(200,255,0,1) 30%, rgba(170,255,0,1) 50%, rgba(150,255,0,1) 100%);;
     font-weight: 600;
-    color: rgb(55, 55, 55);
+    color: $gris-oscuro;
 }
 
 /* cards */
 
 .card {
     border-style:none ;
-}
 
-.card-body {
-/*     border-right-style:solid;
-    border-bottom-style:solid;
-    border-left-style:solid;
-    border-width: thin;
-    border-color: rgb(55, 55, 55); */
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    background-color:white;
-    margin-bottom: 6vh;
-}
+    .card-body {
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        background-color:white;
+        margin-bottom: 6vh;
+    }
 
-.card-title {
-    font-weight: 500;
-    font-size: 4vh;
-}
+    .card-title {
+        font-weight: 500;
+        font-size: 4vh;
+    }
 
-.card-text {
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
+    .card-text {
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 400;
+    }
 }

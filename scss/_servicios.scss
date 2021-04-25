@@ -15,6 +15,15 @@
 }
 
 .card {
-    color: rgb(55, 55, 55);
+    color: $gris-oscuro;
     text-shadow: none;
+}
+
+.servicios .animate__animated {
+    animation-play-state: paused;
+}
+
+.servicios .animate__animated:hover {
+    animation-play-state: running;
+    animation-iteration-count: infinite;
 }

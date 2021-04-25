@@ -9,6 +9,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/800005af7f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
 
@@ -46,43 +48,76 @@
         <main class="seccion--nosotros">
             <section class="nosotros__grid">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="align-self-start col-sm-12 col-md-6 col-lg-6">
-                            <div class="nosotros__nosotros">
-                                <h1>Nosotros</h1>
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
-                            </div>
-                        </div>
-                        <div class="align-self-end col-sm-12 col-md-6 col-lg-6">
-                            <div class="nosotros__como">
-                                <h2>Como lo hacemos</h2>
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="nosotros__integrantes">Integrantes</h2>
-                        </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
-                                <div class="nosotros__integrantes--1">
-                                    <img src="multimedia/daniela.png" width="160px" alt="Foto de integrante 1">
-                                    <h3>Daniela</h3>
-                                    <p>Co-Founder / Visual Designer</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="align-self-start col-sm-12 col-md-6 col-lg-6">
+                                <div class="nosotros__nosotros">
+                                    <h1>Nosotros</h1>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
-                                <div class="nosotros__integrantes--2">
-                                    <img src="multimedia/guillermo.png" width="160px" alt="Foto de integrante 2">
-                                    <h3>Guillermo</h3>
-                                    <p>Co-Founder / Fotógrafo & Social Media Management</p>
+                            <div class="align-self-end col-sm-12 col-md-6 col-lg-6">
+                                <div class="nosotros__como">
+                                    <h2>Como lo hacemos</h2>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
-                                <div class="nosotros__integrantes--2">
-                                    <img src="multimedia/diego.png" width="160px" alt="Foto de integrante 2">
-                                    <h3>Diego</h3>
-                                    <p>IT Support</p>
-                                </div>
+                            <div class="nosotros__integrantes col-sm-12 col-md-12 col-lg-12">
+                                <h2>Integrantes</h2>
                             </div>
+
+                            <div class="nosotros__integrantes--cards row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                  <div class="daniela card wow animate__animated animate__slideInUp">
+                                    <img src="multimedia/daniela.png" width="120px" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Daniela</h5>
+                                      <p class="card-text">Co-Founder / Visual Designer</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="guillermo card wow animate__animated animate__slideInUp">
+                                    <img src="multimedia/guillermo.png" width="120px" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Guillermo</h5>
+                                      <p class="card-text">Co-Founder / Fotógrafo & Social Media Management</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="animate__animated animate__slideInUp">
+                                    <div class="col">
+                                        <div class="diego card">
+                                            <img src="multimedia/diego.png" width="120px" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <h5 class="card-title">Diego</h5>
+                                            <p class="card-text">IT Support.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <!-- <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="nosotros__integrantes--1">
+                                        <img src="multimedia/daniela.png" width="160px" alt="Foto de integrante 1">
+                                        <h3>Daniela</h3>
+                                        <p>Co-Founder / Visual Designer</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="nosotros__integrantes--2">
+                                        <img src="multimedia/guillermo.png" width="160px" alt="Foto de integrante 2">
+                                        <h3>Guillermo</h3>
+                                        <p>Co-Founder / Fotógrafo & Social Media Management</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="nosotros__integrantes--2">
+                                        <img src="multimedia/diego.png" width="160px" alt="Foto de integrante 2">
+                                        <h3>Diego</h3>
+                                        <p>IT Support</p>
+                                    </div>
+                                </div> -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -113,6 +148,11 @@
                 </div>
             </div>
         </footer>
+
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
