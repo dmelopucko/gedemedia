@@ -185,6 +185,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
+.main--background {
+  background-color: #f1f2e9; }
+
 /* index */
 main .index {
   font-family: 'Open Sans', sans-serif;
@@ -217,9 +220,6 @@ main .index {
   font-weight: 600; }
 
 /* Proyectos */
-body {
-  background-color: #f1f2e9; }
-
 .proyectos {
   background-image: none;
   font-family: 'Open Sans', sans-serif;
@@ -272,6 +272,12 @@ body {
   text-shadow: 1px 1px 4px darkslategrey; }
 
 /* Servicios */
+.body {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
 .servicios {
   background-image: none;
   font-family: 'Open Sans', sans-serif;
@@ -284,3 +290,5 @@ body {
 
 /* Nosotros */
 /* Contacto */
+.contacto {
+  padding: 4vh; }
