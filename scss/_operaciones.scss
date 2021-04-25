@@ -1,0 +1,52 @@
+$verde-gris: #F1F2E9;
+$verde-clarito: #F3FFEF;
+$rosa-palido: #FFEDF2;
+$indigo-palido: #F2ECFB;
+
+// $background: white;
+// main {
+//     @if $background == proyecto {
+//         background-color:$verde-gris;
+//     } @else if $background == servicios {
+//         background-color: $verde-clarito;
+//     } @else if $background == nosotros {
+//         background-color: $indigo-palido;
+//     } @else if $background == contacto {
+//         background-color: $rosa-palido;
+//     } @else {
+//         background-color: none;
+//     }
+// }
+
+$redes: ( 
+        instagram: #FA00F2,
+        facebook:  #00AFFA,
+        behance: #008CFA,
+        youtube: #FA0013,
+        gmail: #FA2A02
+); 
+
+@each $red, $color in $redes {
+   .btn--#{$red} {
+       color: $color;
+   }
+}
+
+$fondos: (
+        proyectos: #F1F2E9,
+        servicios: #F3FFEF,
+        nosotros: #FFEDF2,
+        contacto: #F2ECFB
+);
+
+.botones--redes {
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+@each $fondo, $color in $fondos {
+    .seccion--#{$fondo} {
+        background-color: $color;
+        @extend .botones--redes
+    }
+}

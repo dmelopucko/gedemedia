@@ -11,56 +11,55 @@
     font-size: 14px;
 }
 
-.proyectos__A {
+.proyectos__margin {
     margin-bottom: 8vw;
 }
 
-.proyectos__B {
-    margin-bottom: 8vw;
+.proyectos__1 {
+    @extend .proyectos__margin
 }
 
-.proyectos__C {
-    margin-bottom: 8vw;
+.proyectos__2 {
+    @extend .proyectos__margin
 }
 
-.proyectos__D {
-    margin-bottom: 8vw;
+.proyectos__3 {
+    @extend .proyectos__margin
 }
 
-.proyectos__E {
-    margin-bottom: 8vw;
+.proyectos__4 {
+    @extend .proyectos__margin
 }
 
-.proyectos__New {
-    margin-bottom: 8vw;
+.proyectos__5 {
+    @extend .proyectos__margin
 }
 
-.proyectos__A:hover {
+.proyectos__6 {
+    @extend .proyectos__margin
+}
+
+.proyectos__1:hover {
     color:whitesmoke;
     text-shadow: 1px 1px 4px darkslategrey;
 }
 
-.proyectos__B:hover {
-    color:whitesmoke;
-    text-shadow: 1px 1px 4px darkslategrey;
+.proyectos__2:hover {
+    @extend .proyectos__1:hover
 }
 
-.proyectos__C:hover {
-    color:whitesmoke;
-    text-shadow: 1px 1px 4px darkslategrey;
+.proyectos__3:hover {
+    @extend .proyectos__1:hover
 }
 
-.proyectos__D:hover {
-    color:whitesmoke;
-    text-shadow: 1px 1px 4px darkslategrey;
+.proyectos__4:hover {
+    @extend .proyectos__1:hover
 }
 
-.proyectos__E:hover {
-    color:whitesmoke;
-    text-shadow: 1px 1px 4px darkslategrey;
+.proyectos__5:hover {
+    @extend .proyectos__1:hover
 }
 
-.proyectos__New:hover {
-    color:whitesmoke;
-    text-shadow: 1px 1px 4px darkslategrey;
+.proyectos__6:hover {
+    @extend .proyectos__1:hover
 }

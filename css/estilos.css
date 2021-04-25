@@ -1,3 +1,34 @@
+.btn--instagram {
+  color: #FA00F2; }
+
+.btn--facebook {
+  color: #00AFFA; }
+
+.btn--behance {
+  color: #008CFA; }
+
+.btn--youtube {
+  color: #FA0013; }
+
+.btn--gmail {
+  color: #FA2A02; }
+
+.botones--redes, .seccion--proyectos, .seccion--servicios, .seccion--nosotros, .seccion--contacto {
+  margin-right: 8px;
+  text-decoration: none; }
+
+.seccion--proyectos {
+  background-color: #F1F2E9; }
+
+.seccion--servicios {
+  background-color: #F3FFEF; }
+
+.seccion--nosotros {
+  background-color: #FFEDF2; }
+
+.seccion--contacto {
+  background-color: #F2ECFB; }
+
 /* navbar */
 header {
   font-family: 'Poppins', sans-serif;
@@ -59,9 +90,6 @@ footer ul li {
   padding-right: 2vh; }
 
 footer ul li a {
-  color: whitesmoke; }
-
-footer ul li a i {
   color: whitesmoke; }
 
 .footer__copyright {
@@ -185,9 +213,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
-.main--background {
-  background-color: #f1f2e9; }
-
 /* index */
 main .index {
   font-family: 'Open Sans', sans-serif;
@@ -229,45 +254,10 @@ main .index {
 .badge {
   font-size: 14px; }
 
-.proyectos__A {
+.proyectos__margin, .proyectos__1, .proyectos__2, .proyectos__3, .proyectos__4, .proyectos__5, .proyectos__6 {
   margin-bottom: 8vw; }
 
-.proyectos__B {
-  margin-bottom: 8vw; }
-
-.proyectos__C {
-  margin-bottom: 8vw; }
-
-.proyectos__D {
-  margin-bottom: 8vw; }
-
-.proyectos__E {
-  margin-bottom: 8vw; }
-
-.proyectos__New {
-  margin-bottom: 8vw; }
-
-.proyectos__A:hover {
-  color: whitesmoke;
-  text-shadow: 1px 1px 4px darkslategrey; }
-
-.proyectos__B:hover {
-  color: whitesmoke;
-  text-shadow: 1px 1px 4px darkslategrey; }
-
-.proyectos__C:hover {
-  color: whitesmoke;
-  text-shadow: 1px 1px 4px darkslategrey; }
-
-.proyectos__D:hover {
-  color: whitesmoke;
-  text-shadow: 1px 1px 4px darkslategrey; }
-
-.proyectos__E:hover {
-  color: whitesmoke;
-  text-shadow: 1px 1px 4px darkslategrey; }
-
-.proyectos__New:hover {
+.proyectos__1:hover, .proyectos__2:hover, .proyectos__3:hover, .proyectos__4:hover, .proyectos__5:hover, .proyectos__6:hover {
   color: whitesmoke;
   text-shadow: 1px 1px 4px darkslategrey; }
 
