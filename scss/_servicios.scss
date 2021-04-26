@@ -1,8 +1,6 @@
 /* Servicios */
 
-.body {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.seccion--servicios {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
 }
@@ -12,6 +10,8 @@
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
     width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card {
@@ -24,6 +24,6 @@
 }
 
 .servicios .animate__animated:hover {
-    animation-play-state: running;
-    animation-iteration-count: infinite;
+    animation-play-state:initial;
+    animation-iteration-count:infinite;
 }

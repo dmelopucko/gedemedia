@@ -179,27 +179,27 @@ body {
     font-weight: 400; }
 
 /* index */
-main .index {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  text-shadow: 1px 1px 1px #373737;
-  color: white;
+.main--index {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/a90e5856339319.59aa2d9692a5a.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  padding-top: 15vh;
-  padding-bottom: 8vh;
-  height: 100vh; }
-  main .index .row .col-12 {
+  background-size: cover; }
+  .main--index .index {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #373737;
+    color: white;
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 8vh; }
+  .main--index .row .col-12 {
     justify-content: center;
     align-content: center;
     box-sizing: border-box;
     width: 80%; }
-  main .index p {
+  .main--index p {
     font-size: 18px; }
-  main .index h1 {
+  .main--index h1 {
     padding: 0;
     margin: 0; }
 
@@ -226,13 +226,10 @@ main .index {
   animation-play-state: paused; }
 
 .proyectos .animate__animated:hover {
-  animation-play-state: running;
-  animation-iteration-count: infinite; }
+  animation-play-state: running; }
 
 /* Servicios */
-.body {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.seccion--servicios {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
@@ -240,7 +237,9 @@ main .index {
   background-image: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  width: 100%; }
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
 
 .card {
   color: #373737;
@@ -250,7 +249,7 @@ main .index {
   animation-play-state: paused; }
 
 .servicios .animate__animated:hover {
-  animation-play-state: running;
+  animation-play-state: initial;
   animation-iteration-count: infinite; }
 
 /* Nosotros */
