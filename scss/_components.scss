@@ -34,11 +34,15 @@ header div nav ul li a:hover {
     font-weight: 600;
 }
 
-/* main */
+/* body */
+
+body {
+    height: 100vh;
+}
 
 main {
-    padding-top: 16vh;
-    padding-bottom: 12vh;
+    // padding-top: 16vh;
+    // padding-bottom: 12vh;
 }
 
 /* footer */
@@ -60,8 +64,8 @@ main {
         padding-top: 2vh;
         padding-bottom: 2vh;
         box-sizing: border-box;
-        left: 0;
-        bottom: 0;
+        // left: 0;
+        // bottom: 0;
         display: block;
     }
 

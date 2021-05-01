@@ -53,10 +53,9 @@ header div nav ul li a:hover {
   text-decoration-style: wavy;
   font-weight: 600; }
 
-/* main */
-main {
-  padding-top: 16vh;
-  padding-bottom: 12vh; }
+/* body */
+body {
+  height: 100vh; }
 
 /* footer */
 .footer {
@@ -73,8 +72,6 @@ main {
     padding-top: 2vh;
     padding-bottom: 2vh;
     box-sizing: border-box;
-    left: 0;
-    bottom: 0;
     display: block; }
   .footer .footer__links {
     flex-wrap: wrap;
