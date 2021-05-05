@@ -9,6 +9,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
+    height: 6vh;
 }
 
 .bg-light {
@@ -30,7 +31,7 @@ header div nav ul li a:hover {
 
 .active {
     text-decoration-line: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: wavy !important;
     font-weight: 600;
 }
 
@@ -40,11 +41,6 @@ body {
     height: 100vh;
 }
 
-main {
-    // padding-top: 16vh;
-    // padding-bottom: 12vh;
-}
-
 /* footer */
 
 .footer {
@@ -52,6 +48,7 @@ main {
     width: 100%;
     padding:0;
     margin:0;
+    height: 15vh;
 
     div div ul span {
         margin: 0;
@@ -102,9 +99,22 @@ main {
 
     .footer__small {
         color:whitesmoke;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        // padding-top: 3vh;
+        // padding-bottom: 3vh;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    #footer {
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #footer {
+        margin-top: 1vh;
+    }
+
 }
 
 /* elementos de texto */
@@ -152,8 +162,8 @@ h6 {
 }
 
 body {
-    margin-top: 1rem;
-    margin-bottom: 0;
+    // margin-top: 1rem;
+    // margin-bottom: 0;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
 }

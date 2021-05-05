@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    // height: 79vh;
 
     .index {
         font-family: 'Open Sans', sans-serif; 
@@ -37,4 +38,18 @@
 
 .negrita {
     font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    #main--index {
+        height: 120vh;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    #main--index {
+        height: fit-content;
+    }
+
 }

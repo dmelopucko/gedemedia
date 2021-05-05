@@ -1,5 +1,20 @@
 /* Contacto */
 
 .contacto {
-    padding:4vh;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+}
+
+@media screen and (min-width: 1024px) {
+    #body--contacto {
+        height: 100vh;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    #body--contacto {
+        height: fit-content;
+    }
+
 }

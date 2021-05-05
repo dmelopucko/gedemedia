@@ -33,7 +33,8 @@
 header {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  height: 6vh; }
 
 .bg-light {
   background-color: #c8ff00 !important; }
@@ -50,7 +51,7 @@ header div nav ul li a:hover {
 
 .active {
   text-decoration-line: underline;
-  text-decoration-style: wavy;
+  text-decoration-style: wavy !important;
   font-weight: 600; }
 
 /* body */
@@ -62,7 +63,8 @@ body {
   bottom: 0;
   width: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  height: 15vh; }
   .footer div div ul span {
     margin: 0;
     padding: 0; }
@@ -93,9 +95,15 @@ body {
   .footer .footer__copyright {
     display: block; }
   .footer .footer__small {
-    color: whitesmoke;
-    padding-top: 3vh;
-    padding-bottom: 3vh; }
+    color: whitesmoke; }
+
+@media screen and (min-width: 1024px) {
+  #footer {
+    margin-top: 5vh; } }
+
+@media screen and (max-width: 1023px) {
+  #footer {
+    margin-top: 1vh; } }
 
 /* elementos de texto */
 h1 {
@@ -135,8 +143,6 @@ h6 {
   margin-bottom: 2vh; }
 
 body {
-  margin-top: 1rem;
-  margin-bottom: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
@@ -203,6 +209,14 @@ body {
 .negrita {
   font-weight: 600; }
 
+@media screen and (min-width: 1024px) {
+  #main--index {
+    height: 120vh; } }
+
+@media screen and (max-width: 1023px) {
+  #main--index {
+    height: fit-content; } }
+
 /* Proyectos */
 .proyectos {
   background-image: none;
@@ -264,4 +278,13 @@ body {
 
 /* Contacto */
 .contacto {
-  padding: 4vh; }
+  padding-top: 15vh;
+  padding-bottom: 8vh; }
+
+@media screen and (min-width: 1024px) {
+  #body--contacto {
+    height: 100vh; } }
+
+@media screen and (max-width: 1023px) {
+  #body--contacto {
+    height: fit-content; } }
