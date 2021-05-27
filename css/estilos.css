@@ -1,3 +1,6 @@
+.navbar-toggler {
+  border-style: none; }
+
 .btn--instagram {
   color: #FA00F2; }
 
@@ -141,6 +144,42 @@ header div nav ul li a:hover {
   .card .card-text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400; }
+
+/* footer nuevo prueba */
+.footer {
+  color: white; }
+  .footer .text-muted {
+    color: darkgray !important; }
+  .footer button {
+    color: #BE00FF; }
+  .footer button:hover {
+    color: white;
+    background-color: #BE00FF;
+    background: #BE00FF; }
+  .footer .div--proyectos {
+    margin-bottom: 2vh; }
+  .footer .btn {
+    padding: 0 2vh 0 0;
+    margin: 0;
+    background-color: white;
+    color: #373737;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 2px;
+    text-shadow: none; }
+  .footer .footer--copyright {
+    padding: .25rem 0 .25rem 0 !important; }
+    .footer .footer--copyright div p {
+      color: #373737; }
+
+@media (max-width: 990px) {
+  .div--displaynone {
+    display: none; } }
+
+@media (max-width: 768px) {
+  .div--tablet {
+    display: none; } }
 
 @media (min-width: 1400px) {
   h1 {
@@ -403,50 +442,30 @@ header div nav ul li a:hover {
   padding: 0;
   margin: 0; }
 
-.main--index .index {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  text-shadow: 1px 1px 1px #373737;
-  color: white;
-  width: 100%;
-  padding-top: 12vh; }
-
-.main--index .row .col-12 {
-  justify-content: center;
-  align-content: center;
-  box-sizing: border-box;
-  width: 80%; }
-
-.main--index h1 {
-  margin-bottom: 3rem; }
-
-.main--index .gede--h2 {
-  margin-top: 4vh;
-  padding: 0; }
+.main--index {
+  height: 90vh; }
+  .main--index .index {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #373737;
+    color: white;
+    width: 100%;
+    padding-top: 12vh; }
+  .main--index .row .col-12 {
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    width: 80%; }
+  .main--index h1 {
+    margin-bottom: 3rem; }
+  .main--index .gede--h2 {
+    margin-top: 4vh;
+    padding: 0; }
 
 .negrita {
   font-weight: 600; }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  main section {
-    min-height: fit-content; } }
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .main--index {
-    min-height: fit-content; } }
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .main--index {
-    min-height: fit-content; } }
-
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .main--index {
-    min-height: fit-content; } }
-
-@media (min-width: 1400px) {
-  .main--index {
-    min-height: fit-content; } }
-
+/* para el viejo footer */
 /* Proyectos */
 .proyectos {
   background-image: none;

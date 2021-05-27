@@ -11,6 +11,8 @@
 
 .main--index {
 
+    height: 90vh;
+
     .index {
         font-family: 'Open Sans', sans-serif; 
         font-weight: 400;
@@ -60,49 +62,36 @@
 //     }
 // }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    main section {
-        // min-height: 70vh;
-        min-height: fit-content;
-    }
-}
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    // main section {
-        // min-height: 50vmax;
-    // }
-    .main--index {
-        // height: 80vh;
-        min-height: fit-content;
-    }
-}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    // main section {
-    //     // min-height: 90vh;
-    // }
-    .main--index {
-        // height: 78vh;
-        min-height: fit-content;
-    }
-}
+/* para el viejo footer */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-    // main section {
-    //     // min-height: 85vh;
-    // }
-    .main--index {
-        // height: 76vh;
-        min-height: fit-content;
-    }
-}
+// @media (min-width: 576px) and (max-width: 767.98px) {
+//     main section {
+//         min-height: fit-content;
+//     }
+// }
 
-@media (min-width: 1400px) {
-    // main section {
-    //     // min-height: 85vh;
-    // }
-    .main--index {
-        // height: 78vh;
-        min-height: fit-content;
-    }
-}
+// @media (min-width: 768px) and (max-width: 991.98px) {
+//     .main--index {
+//         height: 78vh;
+//     }
+// }
+
+// @media (min-width: 992px) and (max-width: 1199.98px) {
+//     .main--index {
+//         height: 78vh;
+//     }
+// }
+
+// @media (min-width: 1200px) and (max-width: 1399.98px) {
+//     .main--index {
+//         height: 76vh;
+//     }
+// }
+
+// @media (min-width: 1400px) {
+//     .main--index {
+//         height: 85vh;
+//     }
+// }
