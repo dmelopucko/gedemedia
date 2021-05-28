@@ -1,8 +1,62 @@
 /* Contacto */
 
+.background--contacto {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/a90e5856339319.59aa2d9692a5a.jpg);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:0;
+    margin:0;
+}
+
 .contacto {
     padding-top: 15vh;
     padding-bottom: 8vh;
+    color: white;
+
+    .form-control {
+        color: white;
+        border-bottom-color: white;
+        border-style: none none solid none;
+        border-radius: 0;
+        background: none;
+    }
+    ::placeholder {
+        color:lightgray;
+    }
+    .form-control:focus {
+        border-bottom-width: 2.5px;
+        box-shadow: none;
+    }
+    .btn {
+        border-style: none;
+    }
+    .form-contacto {
+        margin: 3vh 0 3vh 0;
+            .form-contacto--labels {
+                padding-bottom: 6vh;
+            }
+            label {
+                margin-top: 6vh;
+            }
+    }
+}
+
+.banner-socialmedia {
+    margin-bottom: 0;
+    padding: 5vh 0 5vh 0;
+    background-color: white;
+    text-align: center;
+
+    .rrss {
+        display: flex;
+        .btn--rrss {
+            margin-left: 3vh;
+            margin-right: 4vh;
+            font-size: 10vh;
+        }
+        
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -17,4 +71,8 @@
         height: fit-content;
     }
 
+}
+
+.footer--contacto {
+    margin: 0 0 0 0;
 }

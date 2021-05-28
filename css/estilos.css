@@ -2,18 +2,33 @@
   border-style: none; }
 
 .btn--instagram {
+  color: #373737; }
+
+.btn--instagram:hover {
   color: #FA00F2; }
 
 .btn--facebook {
+  color: #373737; }
+
+.btn--facebook:hover {
   color: #00AFFA; }
 
 .btn--behance {
+  color: #373737; }
+
+.btn--behance:hover {
   color: #008CFA; }
 
 .btn--youtube {
+  color: #373737; }
+
+.btn--youtube:hover {
   color: #FA0013; }
 
 .btn--gmail {
+  color: #373737; }
+
+.btn--gmail:hover {
   color: #FA2A02; }
 
 .botones--redes, .seccion--proyectos, .seccion--servicios, .seccion--nosotros, .seccion--contacto {
@@ -21,16 +36,20 @@
   text-decoration: none; }
 
 .seccion--proyectos {
-  background-color: #F1F2E9; }
+  background-color: #F1F2E9;
+  margin-right: 0; }
 
 .seccion--servicios {
-  background-color: #F3FFEF; }
+  background-color: #F3FFEF;
+  margin-right: 0; }
 
 .seccion--nosotros {
-  background-color: #F7FCE0; }
+  background-color: #F7FCE0;
+  margin-right: 0; }
 
 .seccion--contacto {
-  background-color: #FFFFF3; }
+  background-color: #FFFFF3;
+  margin-right: 0; }
 
 * {
   margin: 0;
@@ -67,40 +86,15 @@ header div nav ul li a:hover {
   width: 100%;
   padding: 0;
   margin: 18vmax 0 0 0; }
-  .footer div div ul span {
-    margin: 0;
-    padding: 0; }
-  .footer .footer__list {
-    background-color: #373737;
-    color: whitesmoke;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    box-sizing: border-box;
-    left: 0;
-    bottom: 0;
-    display: block; }
-  .footer .footer__links {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row; }
-  .footer ul li {
-    text-decoration: none;
-    list-style: none;
-    padding-right: 2vh; }
   .footer ul li a {
     color: whitesmoke; }
   .footer ul li a:hover {
-    color: #c8ff00;
-    font-weight: 600; }
+    color: #c8ff00 !important;
+    text-decoration: none; }
   .footer ul li a i:hover {
     color: #c8ff00;
     font-weight: 600;
     font-size: 100%; }
-  .footer .footer__copyright {
-    display: block; }
-  .footer .footer__small {
-    color: whitesmoke;
-    font-size: 75%; }
 
 @media (min-width: 420px) and (max-width: 767.98px) {
   .footer {
@@ -132,7 +126,8 @@ header div nav ul li a:hover {
 
 /* cards */
 .card {
-  border-style: none; }
+  border-style: none;
+  border-radius: 16px; }
   .card .card-body {
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
@@ -159,7 +154,7 @@ header div nav ul li a:hover {
   .footer .div--proyectos {
     margin-bottom: 2vh; }
   .footer .btn {
-    padding: 0 2vh 0 0;
+    padding: 0 2vh 0 2vh;
     margin: 0;
     background-color: white;
     color: #373737;
@@ -467,20 +462,22 @@ header div nav ul li a:hover {
 
 /* para el viejo footer */
 /* Proyectos */
-.proyectos {
+.main--proyectos .proyectos {
   background-image: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  padding-top: 12vh;
   width: 100%; }
 
-.badge {
+.main--proyectos .badge {
   font-size: 14px; }
 
 .proyectos__margin, .proyectos__1, .proyectos__2, .proyectos__3, .proyectos__4, .proyectos__5, .proyectos__6 {
   margin-bottom: 8vw; }
 
 .proyectos__1:hover, .proyectos__2:hover, .proyectos__3:hover, .proyectos__4:hover, .proyectos__5:hover, .proyectos__6:hover {
-  color: #BE00FF; }
+  color: #BE00FF;
+  transition: 10; }
 
 .proyectos .animate__animated {
   animation-play-state: paused; }
@@ -489,7 +486,7 @@ header div nav ul li a:hover {
   animation-play-state: running; }
 
 /* Servicios */
-.seccion--servicios {
+.main--servicios {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
@@ -519,16 +516,98 @@ header div nav ul li a:hover {
 .nosotros__integrantes--cards .card {
   box-shadow: 2px 2px 10px #c4c4c4;
   margin-bottom: 4vh;
-  margin-right: 2vh; }
+  margin-right: 2vh;
+  border-radius: 24px;
+  padding: 3vh; }
+  .nosotros__integrantes--cards .card .avatar {
+    background-color: white;
+    border-color: white;
+    border-radius: 100px;
+    width: 25vh;
+    height: 25vh;
+    margin: 2vh; }
+  .nosotros__integrantes--cards .card .card-body {
+    background-color: none; }
   .nosotros__integrantes--cards .card .card-img-top {
-    width: 35%;
-    align-self: center;
-    justify-self: center; }
+    width: 90%; }
+  .nosotros__integrantes--cards .card .card-title {
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 16px;
+    padding: 2vh;
+    width: fit-content;
+    height: fit-content; }
+  .nosotros__integrantes--cards .card .card-text {
+    background-color: none; }
+
+.daniela {
+  background-color: #BE00FF;
+  color: white; }
+  .daniela .card-body {
+    background-color: #BE00FF; }
+  .daniela .card-title {
+    border-color: white; }
+
+.guillermo {
+  background-color: #c8ff00;
+  color: #373737; }
+  .guillermo .card-body {
+    background-color: #c8ff00; }
+  .guillermo .card-title {
+    border-color: #373737; }
+
+.diego {
+  background-color: #373737;
+  color: white; }
+  .diego .card-body {
+    background-color: #373737; }
+  .diego .card-title {
+    border-color: white; }
 
 /* Contacto */
+.background--contacto {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/a90e5856339319.59aa2d9692a5a.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0; }
+
 .contacto {
   padding-top: 15vh;
-  padding-bottom: 8vh; }
+  padding-bottom: 8vh;
+  color: white; }
+  .contacto .form-control {
+    color: white;
+    border-bottom-color: white;
+    border-style: none none solid none;
+    border-radius: 0;
+    background: none; }
+  .contacto ::placeholder {
+    color: lightgray; }
+  .contacto .form-control:focus {
+    border-bottom-width: 2.5px;
+    box-shadow: none; }
+  .contacto .btn {
+    border-style: none; }
+  .contacto .form-contacto {
+    margin: 3vh 0 3vh 0; }
+    .contacto .form-contacto .form-contacto--labels {
+      padding-bottom: 6vh; }
+    .contacto .form-contacto label {
+      margin-top: 6vh; }
+
+.banner-socialmedia {
+  margin-bottom: 0;
+  padding: 5vh 0 5vh 0;
+  background-color: white;
+  text-align: center; }
+  .banner-socialmedia .rrss {
+    display: flex; }
+    .banner-socialmedia .rrss .btn--rrss {
+      margin-left: 3vh;
+      margin-right: 4vh;
+      font-size: 10vh; }
 
 @media screen and (min-width: 1024px) {
   #body--contacto {
@@ -537,3 +616,6 @@ header div nav ul li a:hover {
 @media screen and (max-width: 1023px) {
   #body--contacto {
     height: fit-content; } }
+
+.footer--contacto {
+  margin: 0 0 0 0; }

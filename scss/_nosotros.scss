@@ -8,9 +8,63 @@
     box-shadow: 2px 2px 10px rgb(196, 196, 196);
     margin-bottom:4vh;
     margin-right: 2vh;
+    border-radius: 24px;
+    padding: 3vh;
+
+    .avatar {
+        background-color: white;
+        border-color: white;
+        border-radius: 100px;
+        width:25vh;
+        height: 25vh;
+        margin: 2vh;
+    }
+    .card-body {
+        background-color: none;
+    }
     .card-img-top {
-        width: 35%;
-        align-self: center;
-        justify-self: center;
+        width: 90%;
+    }
+    .card-title {
+        border-style: solid;
+        border-width: 0.5px;
+        border-radius: 16px;
+        padding: 2vh;
+        width: fit-content;
+        height: fit-content;
+    }
+    .card-text {
+        background-color: none;
+    }
+}
+
+.daniela {
+    background-color: $violeta-brillante;
+    color: white;
+    .card-body {
+        background-color: $violeta-brillante;
+    }
+    .card-title {
+        border-color: white;
+    }
+}
+.guillermo {
+    background-color: $verde-lima;
+    color: $gris-oscuro;
+    .card-body {
+        background-color: $verde-lima;
+    }
+    .card-title {
+        border-color: $gris-oscuro;
+    }
+}
+.diego {
+    background-color: $gris-oscuro;
+    color: white;
+    .card-body {
+        background-color: $gris-oscuro;
+    }
+    .card-title {
+        border-color: white;
     }
 }

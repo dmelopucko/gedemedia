@@ -43,56 +43,19 @@ header div nav ul li a:hover {
     padding: 0;
     margin: 18vmax 0 0 0;
 
-    div div ul span {
-        margin: 0;
-        padding: 0;
-    }
-
-    .footer__list {
-        background-color: rgb(55, 55, 55);
-        color: whitesmoke;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        box-sizing: border-box;
-        left: 0;
-        bottom: 0;
-        display: block;
-    }
-
-    .footer__links {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    }
-
-    ul li {
-        text-decoration: none;
-        list-style: none;
-        padding-right: 2vh;
-    }
-
     ul li a {
         color:whitesmoke;
     }
 
     ul li a:hover {
-        color:$verde-lima;
-        font-weight: 600;
+        color:$verde-lima !important;
+        text-decoration: none;
     }
 
     ul li a i:hover {
         color:$verde-lima;
         font-weight: 600;
         font-size: 100%;
-    }
-
-    .footer__copyright {
-        display: block;
-    }
-
-    .footer__small {
-        color:whitesmoke;
-        font-size: 75%;
     }
 }
 
@@ -134,7 +97,8 @@ header div nav ul li a:hover {
 /* cards */
 
 .card {
-    border-style:none ;
+    border-style:none;
+    border-radius: 16px;
 
     .card-body {
         border-bottom-right-radius: 5%;
@@ -175,7 +139,7 @@ header div nav ul li a:hover {
         margin-bottom: 2vh;
     }
     .btn {
-        padding: 0 2vh 0 0;
+        padding: 0 2vh 0 2vh;
         margin: 0;
         background-color:white;
         color: $gris-oscuro;

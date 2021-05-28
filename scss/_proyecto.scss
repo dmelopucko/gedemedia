@@ -1,14 +1,17 @@
 /* Proyectos */
 
-.proyectos {
-    background-image: none;
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
-    width: 100%;
-}
+.main--proyectos {
 
-.badge {
-    font-size: 14px;
+    .proyectos {
+        background-image: none;
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 400;
+        padding-top: 12vh;
+        width: 100%;
+    }
+    .badge {
+        font-size: 14px;
+    }
 }
 
 .proyectos__margin {
@@ -20,6 +23,7 @@
 }
 .proyectos__1:hover {
     color: $violeta-brillante;
+    transition: 10;
 }
 
 .proyectos__2:hover {
