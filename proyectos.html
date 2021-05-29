@@ -7,18 +7,20 @@
         <link rel="icon" href="multimedia/logo-cruz.svg">
         <title>Proyectos - GEDE media</title>
         <meta title="GEDE media - Proyectos">
-        <meta name="description" content="Somos un estudio de comunicación visual integral. Mirá nuestros últimos proyectos, el próximo puede ser el tuyo.">
-        <meta name="keywords" content="diseño, social media, redes sociales, fotografía, motion graphics, web, marketing digital, google ads, ads, community management">
+        <meta name="description" content="Somos un estudio de comunicación visual integral itinerante, oriundo del sur de Buenos Aires. Nuestros servicios giran en torno al diseño, la comunicación visual y audiovisual, la animación, la ilustración, la fotografía y el marketing digital. Te mostramos algunos de nuestros proyectos, el próximo puede ser el tuyo.">
+        <meta name="keywords" content="gede media estudio, gede, gede diseño, gede fotografia, foto, gede media, comunicar, comunicación, comunicación audiovisual, comunicación visual, audiovisual, diseño, diseño gráfico, diseño ux, diseño web, fotografía, animación, video, motion graphics, marketing digital, google ads, facebook ads, branding, packaging, diseño editorial, placas, flyer, social media, community management, community manager, editorial, consultoria, retoque fotográfico, retoque, tarjetas personales, pymes, emprendimiento, emprendedores, emprendedor, estudio de diseño, estudio de diseño gráfico, estudio fotográfico, estudio audiovisual, contenido audiovisual, contenido para redes sociales, social media starter pack, logotipo, logo, diseño de logo, diseño de packaging, marketing, ilustración, diseño responsvo, Guillermo Leiva, Guillermo Leiva fotógrafo, Daniela Melo, Daniela Melo diseñadora, visual design, Quilmes, Berazategui, Buenos Aires, diseño Quilmes, diseño Berazategui, diseño Buenos Aires, fotógrafo Quilmes, fotógrafo Berazategui, fotógrafo Buenos Aires, av libre, cosmética natural, cosmética packaging, revista molecular, revista, molecular, aimpa, aimpa sistemas, real state photos, fotografía de bienes raíces, fotografía de fachadas, fachadas, impro teatro, prensa, fotografía de prensa, fotografía de eventos, teatro, improvisación, eventos">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/800005af7f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
 
 
-    <body>
+    <body class="seccion--proyectos">
         <header>
             <div>
                 <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
@@ -49,59 +51,73 @@
             </div>
         </header>
         
-        <main class="seccion--proyectos">
-            <section class="proyectos container-fluid mr-auto"> <!-- método BEM empleado en clases del proyectos (proyectos, proyectos__A y etc) -->
+        <main class="main--proyectos">
+            <section class="proyectos container-fluid mr-auto">
                 <div class="container">
                     <h1>Proyectos</h1>
-                    <div class="proyectos__grid row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col g-4">
-                          <div class="card proyectos__1 animate__animated animate__pulse">
-                            <img src="https://static.aimpasistemas.com/img/logo-3.svg" class="card-img-top" alt="...">
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lr-4 g-4">
+                        <div data-aos="fade-up" data-aos-duration="2000" class="col g-4">
+                          <div class="card proyectos__1">
+                            <div class="card-imagen d-flex align-items-center">
+                              <img src="multimedia/aimpa.png" class="card-img-top" alt="...">
+                            </div>
                             <div class="card-body">
-                              <h4 class="card-title">AIMPA</h4><span class="badge badge-secondary">New</span>
-                              <p class="card-text">Branding. Social Media. Motion graphics.</p>
+                              <div class="titulo-badge">
+                                <h4 class="card-title">AIMPA</h4><p class="badge badge-secondary">New</p>
+                              </div>
+                              <p class="card-text">Branding. Generación de contenido para social media. Motion graphics.</p>
                             </div>
                           </div>
                         </div>
-                        <div class="col g-4">
-                          <div class="card proyectos__2 animate__animated animate__pulse">
-                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a14b7a106428403.5f8fbff77dd2e.jpg" class="card-img-top" alt="...">
+                        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="col g-4">
+                          <div class="card proyectos__2">
+                            <div class="card-imagen d-flex align-items-center">
+                              <img src="multimedia/avlibre.png" class="card-img-top" alt="...">
+                            </div>
                             <div class="card-body">
                               <h4 class="card-title">AV libre</h4>
-                              <p class="card-text">Branding. Packaging.</p>
+                              <p class="card-text">Branding. Diseño de etiquetas para packaging. Ilustración.</p>
                             </div>
                           </div>
                         </div>
-                        <div class="col g-4">
-                          <div class="card proyectos__3 animate__animated animate__pulse">
-                            <img src="multimedia/0Artboard 1-00-01.jpg" class="card-img-top" alt="...">
+                        <div data-aos="fade-up" data-aos-duration="2000" class="col g-4">
+                          <div class="card proyectos__3">
+                            <div class="card-imagen d-flex align-items-center">
+                              <img src="multimedia/Molecular.jpg" class="card-img-top" alt="...">
+                            </div>
                             <div class="card-body">
                               <h4 class="card-title">Revista Molecular</h4>
                               <p class="card-text">Redes sociales. Art & Copy. Management.</p>
                             </div>
                           </div>
                         </div>
-                        <div class="col g-4">
-                          <div class="card proyectos__4 animate__animated animate__pulse">
-                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/c9578556365169.59abe1b21bdbf.jpg" class="card-img-top" alt="...">
+                        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="col g-4">
+                          <div class="card proyectos__4">
+                            <div class="card-imagen d-flex align-items-center">
+                              <img src="multimedia/Golpe campana.jpg" class="card-img-top" alt="...">
+                            </div>
                             <div class="card-body">
                               <h4 class="card-title">Golpe Campana</h4>
-                              <p class="card-text">Fotografía. Corporativo. Trabajo in situ.</p>
+                              <p class="card-text">Fotografía corporativa. Cobertura de trabajo in situ.</p>
                             </div>
                           </div>
                         </div>
-                        <div class="col g-4">
-                            <div class="card proyectos__5 animate__animated animate__pulse">
-                              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/58823857276055.59cf55475b3d0.jpg" class="card-img-top" alt="...">
+                        <div data-aos="fade-up" data-aos-duration="2000" class="col g-4">
+                            <div class="card proyectos__5">
+                              <div class="card-imagen d-flex align-items-center">
+                                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/58823857276055.59cf55475b3d0.jpg" class="card-img-top" alt="...">
+                              </div>
                               <div class="card-body">
                                 <h4 class="card-title">Impro teatro</h4>
                                 <p class="card-text">Fotografía. Prensa. Cobertura de eventos.</p>
                               </div>
                             </div>
                         </div>
-                        <div class="col g-4">
-                            <div class="card proyectos__6 animate__animated animate__pulse">
-                              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/e6757456365609.59abe941c3e3a.jpg" class="card-img-top" alt="...">
+                        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="col g-4">
+                            <div class="card proyectos__6">
+                              <div class="card-imagen d-flex align-items-center">
+                                <img src="multimedia/tensión en la red.jpg" class="card-img-top" alt="...">
+                              </div>
                               <div class="card-body">
                                 <h4 class="card-title">Tensión en la red</h4>
                                 <p class="card-text">Fotografía. Prensa. Cobertura de eventos.</p>
@@ -113,34 +129,69 @@
             </section>
         </main>
         
-        
-        <footer class="footer container-fluid"> <!-- método BEM empleado en clases del footer (footer, footer__list, footer__links, footer__link) -->
-            <div class="footer__list container-fluid">
-                <div class="footer__links">
-                    <ul>
-                        <span>
-                            <a class="navbar-brand" href="index.html">
-                                <img src="multimedia/logo-cruz.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo de GEDE media">
-                            </a>
-                            GEDE media
-                        </span>
-                    </ul>
-                        <ul class="footer__links container-fluid">
-                        <li><a class="footer__link" href="gedemedia@gmail.com">gedemedia@gmail.com</a></li>
-                        <li><a class="footer__link btn--instagram" href="https://instagram.com/mediagede" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-                        <li><a class="footer__link btn--behance" href="https://www.behance.net/gedemedia" target="_blank"><i class="fab fa-behance-square"></i></a></li>
-                        <li><a class="footer__link btn--facebook" href="https://www.facebook.com/gedeMEDIA" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                    </ul>
+        <footer class="footer bg-dark">
+          <div class="container-fluid">
+            <div class="row mx-auto py-4" style="width: 90%">
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="multimedia/logo-cruz.svg" alt="" width="20%" class="mb-3">
+                <p class="text-muted">GEDE media. Comunicación visual. <br> Entregá un mensaje claro, nosotros te ayudamos.</p>
+                <ul class="list-inline mt-4">
+                  <li class="list-inline-item"><a href="https://www.facebook.com/gedeMEDIA" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="https://instagram.com/mediagede" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.behance.net/gedemedia" target="_blank" title="behance"><i class="fa fa-behance"></i></a></li>
+                </ul>
+              </div>
+              <div class="div--tablet col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Servicios</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2"><a href="servicios.html" class="text-muted">Diseño</a></li>
+                  <li class="mb-2"><a href="servicios.html" class="text-muted">Fotografía</a></li>
+                  <li class="mb-2"><a href="servicios.html" class="text-muted">Audiovisual</a></li>
+                  <li class="mb-2"><a href="servicios.html" class="text-muted">Marketing digital</a></li>
+                </ul>
+              </div>
+              <div class="div--displaynone col-lg-2 col-md-6 mb-4 mb-lg-0">
+                  <div class="div--proyectos">
+                      <h6 class="text-uppercase font-weight-bold mb-4">Proyectos</h6>
+                      <ul class="list-unstyled mb-0">
+                          <li class="mb-2"><a href="proyectos.html" class="text-muted">Portfolio</a></li>
+                      </ul>
+                  </div>
+                  <div class="div--nosotros">
+                      <h6 class="text-uppercase font-weight-bold mb-4">Nosotros</h6>
+                      <ul class="list-unstyled mb-0">
+                          <li class="mb-2"><a href="nosotros.html" class="text-muted">Nuestros equipo</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Contacto</h6>
+                <p class="text-muted mb-4">¿Listo para tu próximo proyecto? ¡Empecemos!</p>
+                <form action="https://formspree.io/f/moqydenv" method="POST">
+                <div class="p-1 rounded border">
+                  <div class="input-group">
+                    <input type="email" name="_replyto" placeholder="Ingresá tu mail" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                    <div class="input-group-append">
+                      <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                    </div>
+                  </div>
                 </div>
-                <div class="footer__copyright container-fluid">
-                    <small class="footer__small">© 2021 GEDE media. Buenos Aires, Argentina</small> 
-                </div>
+              </form>
+              </div>
             </div>
+          </div>
+          <div class="footer--copyright bg-light py-4">
+            <div class="container text-center">
+              <p class="mb-0 py-2">© 2021 GEDE media. Buenos Aires, Argentina.</p>
+            </div>
+          </div>
         </footer>
 
         <script src="js/wow.min.js"></script>
         <script>
         new WOW().init();
+        </script>
+        <script>
+          AOS.init();
         </script>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
