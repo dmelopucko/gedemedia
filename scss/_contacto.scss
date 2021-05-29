@@ -1,5 +1,78 @@
 /* Contacto */
 
+.background--contacto {
+    background-image: url("../multimedia/Contacto.jpg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:0;
+    margin:0;
+}
+
 .contacto {
-    padding:4vh;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+    color: white;
+
+    .form-control {
+        color: white;
+        border-bottom-color: white;
+        border-style: none none solid none;
+        border-radius: 0;
+        background: none;
+    }
+    ::placeholder {
+        color:lightgray;
+    }
+    .form-control:focus {
+        border-bottom-width: 2.5px;
+        box-shadow: none;
+    }
+    .btn {
+        border-style: none;
+    }
+    .form-contacto {
+        margin: 3vh 0 3vh 0;
+            .form-contacto--labels {
+                padding-bottom: 6vh;
+            }
+            label {
+                margin-top: 6vh;
+            }
+    }
+}
+
+.banner-socialmedia {
+    margin-bottom: 0;
+    padding: 5vh 0 5vh 0;
+    background-color: white;
+    text-align: center;
+
+    .rrss {
+        display: flex;
+        .btn--rrss {
+            margin-left: 3vh;
+            margin-right: 4vh;
+            font-size: 10vh;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #body--contacto {
+        height: 100vh;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    #body--contacto {
+        height: fit-content;
+    }
+
+}
+
+.footer--contacto {
+    margin: 0 0 0 0;
 }

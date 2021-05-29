@@ -1,16 +1,110 @@
 /* Nosotros */
 
+.nosotros {
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+    .nosotros__nosotros {
+        width: 45%;
+        margin-bottom: 10vh;
+    }
+    .nosotros__what {
+        width: 95%;
+        margin-right: 0;
+    }
+    .nosotros__how {
+        width: 95%;
+        margin-right: 0;
+    }
+}
+
 .nosotros__integrantes {
     margin-top: 8vh;
 }
 
-.nosotros__integrantes--cards .card {
-    box-shadow: 2px 2px 10px rgb(196, 196, 196);
+.nosotros__integrantes--cards {
     margin-bottom:4vh;
-    margin-right: 2vh;
+    
+    .card {
+        border-radius: 24px;
+        padding: 2vh;
+        margin-top: 2vh;
+        margin-bottom:4vh;
+    }
+    .avatar {
+        width:15vh;
+        margin: 2vh;
+        align-content: center;
+    }
+    .card-body {
+        background-color: none;
+    }
     .card-img-top {
-        width: 35%;
-        align-self: center;
-        justify-self: center;
+        width: 90%;
+    }
+    .card-title {
+        border-style: solid;
+        border-width: 0.5px;
+        border-radius: 16px;
+        padding: 2vh;
+        width: fit-content;
+        height: fit-content;
+        font-size: 1.2rem;
+    }
+    .card-text {
+        background-color: none;
+    }
+    .daniela {
+        .card {
+            background-color: $violeta-brillante;
+            color: white;
+            border-right: 7px solid;
+            border-bottom: 7px solid;
+            border-color: $naranja-brillante;
+            .card-body {
+                background-color: $violeta-brillante;
+            }
+            .card-title {
+                border-color: white;
+            }
+        }
+    }
+    .guillermo {
+        background-color: $naranja-brillante;
+        color: white;
+        border-right: 7px solid;
+        border-bottom: 7px solid;
+        border-color: $verde-lima;
+        .card-body {
+            background-color: $naranja-brillante;
+        }
+        .card-title {
+            border-color: white;
+        }
+    }
+    .sofia {
+        background-color: $verde-lima;
+        color: $gris-oscuro;
+        border-right: 7px solid;
+        border-bottom: 7px solid;
+        border-color: $verde-intenso;
+        .card-body {
+            background-color: $verde-lima;
+        }
+        .card-title {
+            border-color: $gris-oscuro;
+        }
+    }
+    .diego {
+        background-color: $verde-intenso;
+        color: $gris-oscuro;
+        border-right: 7px solid;
+        border-bottom: 7px solid;
+        border-color: $azul-francia;
+        .card-body {
+            background-color: $verde-intenso;
+        }
+        .card-title {
+            border-color: $gris-oscuro;
+        }
     }
 }

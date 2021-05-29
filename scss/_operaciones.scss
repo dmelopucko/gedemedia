@@ -8,7 +8,10 @@ $redes: (
 
 @each $red, $color in $redes {
    .btn--#{$red} {
-       color: $color;
+       color: $gris-oscuro;
+   }
+   .btn--#{$red}:hover {
+        color: $color;
    }
 }
 
@@ -27,6 +30,7 @@ $fondos: (
 @each $fondo, $color in $fondos {
     .seccion--#{$fondo} {
         background-color: $color;
+        margin-right: 0;
         @extend .botones--redes
     }
 }

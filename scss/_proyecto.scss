@@ -1,18 +1,45 @@
 /* Proyectos */
 
-.proyectos {
-    background-image: none;
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
-    width: 100%;
-}
+.main--proyectos {
 
-.badge {
-    font-size: 14px;
+    .proyectos {
+        background-image: none;
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 400;
+        padding-top: 12vh;
+        width: 100%;
+    }
+    .card:hover {
+        border-right: 5px inset $naranja-brillante;
+        border-bottom: 5px inset $naranja-brillante;
+
+    }
+    .card-imagen {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        height: 28vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .card-body:hover {
+        color: $violeta-brillante;
+    }
+    .titulo-badge {
+        display: flex;
+    }
+    .badge {
+        font-size: 14px;
+        height: fit-content;
+        padding: 0.5vh;
+        margin-left: 1vh;
+    }
+    .badge:hover {
+        background-color: $naranja-brillante;
+    }
 }
 
 .proyectos__margin {
-    margin-bottom: 8vw;
+    margin-bottom: 2vw;
 }
 
 .proyectos__1, .proyectos__2, .proyectos__3, .proyectos__4, .proyectos__5, .proyectos__6 {
@@ -20,25 +47,10 @@
 }
 .proyectos__1:hover {
     color: $violeta-brillante;
+    transition: 10;
 }
 
-.proyectos__2:hover {
-    @extend .proyectos__1:hover
-}
-
-.proyectos__3:hover {
-    @extend .proyectos__1:hover
-}
-
-.proyectos__4:hover {
-    @extend .proyectos__1:hover
-}
-
-.proyectos__5:hover {
-    @extend .proyectos__1:hover
-}
-
-.proyectos__6:hover {
+.proyectos__2:hover, .proyectos__3:hover, .proyectos__4:hover, .proyectos__5:hover, .proyectos__6:hover {
     @extend .proyectos__1:hover
 }
 

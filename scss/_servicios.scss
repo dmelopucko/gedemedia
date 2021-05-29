@@ -1,6 +1,6 @@
 /* Servicios */
 
-.seccion--servicios {
+.main--servicios {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
 }
@@ -12,12 +12,27 @@
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+    .card {
+        color: $gris-oscuro;
+        text-shadow: none;
+    }
+    .card:hover {
+        border-right: 5px inset $verde-intenso;
+        border-bottom: 5px inset $verde-intenso;
+        color: $naranja-brillante;
+    }
+    .card-imagen {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        height: 25vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
 }
 
-.card {
-    color: $gris-oscuro;
-    text-shadow: none;
-}
+
 
 .servicios .animate__animated {
     animation-play-state: paused;

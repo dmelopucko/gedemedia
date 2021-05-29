@@ -1,10 +1,17 @@
 /* index */
 
-.main--index {
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/a90e5856339319.59aa2d9692a5a.jpg);
+.index--background {
+    background-image: url("../multimedia/Home.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding:0;
+    margin:0;
+}
+
+.main--index {
+
+    height: 90vh;
 
     .index {
         font-family: 'Open Sans', sans-serif; 
@@ -13,8 +20,7 @@
         color: white;
         width: 100%;
         // height: 100vh;
-        padding-top: 15vh;
-        padding-bottom: 8vh;
+        padding-top: 12vh;
     }
 
     .row .col-12 {
@@ -24,15 +30,14 @@
         width: 80%;
     }
 
-    p {
-        font-size: 18px;
+    h1 {
+        margin-bottom: 3rem;
     }
 
-    h1 {
-        padding: 0;
-        margin: 0; 
+    .gede--h2 {
+        margin-top: 4vh;
+        padding:0;
     }
-    
 }
 
 .negrita {

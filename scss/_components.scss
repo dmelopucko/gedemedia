@@ -1,7 +1,7 @@
-// * {
-//     margin:0;
-//     padding:0;
-// }
+* {
+    margin:0;
+    padding:0;
+}
 
 /* navbar */
 
@@ -9,6 +9,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
+    height: 6vh;
 }
 
 .bg-light {
@@ -30,64 +31,25 @@ header div nav ul li a:hover {
 
 .active {
     text-decoration-line: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: wavy !important;
     font-weight: 600;
-}
-
-/* body */
-
-body {
-    height: 100vh;
-}
-
-main {
-    // padding-top: 16vh;
-    // padding-bottom: 12vh;
 }
 
 /* footer */
 
 .footer {
-    bottom:0;
+    bottom: 0;
     width: 100%;
-    padding:0;
-    margin:0;
-
-    div div ul span {
-        margin: 0;
-        padding: 0;
-    }
-
-    .footer__list {
-        background-color: rgb(55, 55, 55);
-        color: whitesmoke;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        box-sizing: border-box;
-        // left: 0;
-        // bottom: 0;
-        display: block;
-    }
-
-    .footer__links {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    }
-
-    ul li {
-        text-decoration: none;
-        list-style: none;
-        padding-right: 2vh;
-    }
+    padding: 0;
+    margin: 18vmax 0 0 0;
 
     ul li a {
         color:whitesmoke;
     }
 
     ul li a:hover {
-        color:$verde-lima;
-        font-weight: 600;
+        color:$verde-lima !important;
+        text-decoration: none;
     }
 
     ul li a i:hover {
@@ -95,67 +57,18 @@ main {
         font-weight: 600;
         font-size: 100%;
     }
+}
 
-    .footer__copyright {
-        display: block;
-    }
-
-    .footer__small {
-        color:whitesmoke;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+@media (min-width: 420px) and (max-width: 767.98px) {
+    .footer {
+        margin: 9vmax 0 0 0;
     }
 }
 
-/* elementos de texto */
-
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 7vh;
-    margin-bottom: 4vh;
-}
-
-h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 6vh;
-    margin-bottom: 4vh;
-}
-
-h3 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 5vh;
-    margin-bottom: 3vh;
-}
-
-h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 4vh;
-    margin-bottom: 2vh;
-}
-
-h5 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 3vh;
-    margin-bottom: 2vh;
-}
-
-h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 2vh;
-    margin-bottom: 2vh;
-}
-
-body {
-    margin-top: 1rem;
-    margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
+@media (min-width: 768px) {
+    .footer {
+        margin: 2vmax 0 0 0;
+    }
 }
 
 /* botones */
@@ -184,13 +97,17 @@ body {
 /* cards */
 
 .card {
-    border-style:none ;
+    border-style:none;
+    border-radius: 16px;
+    border: 0.5px solid $gris-oscuro;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
 
     .card-body {
         border-bottom-right-radius: 5%;
         border-bottom-left-radius: 5%;
         background-color:white;
-        margin-bottom: 6vh;
+        margin-bottom: 2vh;
     }
 
     .card-title {
@@ -202,4 +119,68 @@ body {
         font-family: 'Open Sans', sans-serif; 
         font-weight: 400;
     }
+}
+
+.card:hover {
+    border-top: 1px solid $gris-oscuro;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 1px solid $gris-oscuro;
+    transition:ease-in-out 0.15s;
+}
+
+
+/* footer nuevo prueba */
+
+.footer {
+    color: white;
+
+    .text-muted {
+        color:darkgray !important;
+    }
+    button {
+        color: $violeta-brillante
+    }
+    button:hover {
+        color: white;
+        background-color: $violeta-brillante;
+        background: $violeta-brillante;
+    }
+    .div--proyectos {
+        margin-bottom: 2vh;
+    }
+    .btn {
+        padding: 0 2vh 0 2vh;
+        margin: 0;
+        background-color:white;
+        color: $gris-oscuro;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        border-radius: 2px;
+        text-shadow: none;
+    }
+    .footer--copyright {
+        padding: .25rem 0 .25rem 0 !important;
+
+        div p {
+            color: $gris-oscuro;
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .div--displaynone {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .div--tablet {
+        display: none;
+    }
+}
+
+.navbar-toggler {
+    border-style: none;
 }
