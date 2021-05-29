@@ -470,6 +470,10 @@ header div nav ul li a:hover {
 .negrita {
   font-weight: 600; }
 
+@media (max-width: 400px) {
+  .main--index {
+    margin-bottom: 25vh; } }
+
 /* Proyectos */
 .main--proyectos .proyectos {
   background-image: none;
@@ -671,7 +675,9 @@ header div nav ul li a:hover {
 .banner-socialmedia {
   margin-bottom: 0;
   padding: 5vh 0 5vh 0;
-  background-color: white;
+  background-image: url("../multimedia/colorrun.png");
+  background-position: top;
+  background-size: cover;
   text-align: center; }
   .banner-socialmedia .rrss {
     display: flex; }

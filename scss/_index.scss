@@ -43,3 +43,9 @@
 .negrita {
     font-weight: 600;
 }
+
+@media (max-width: 400px) {
+    .main--index {
+        margin-bottom: 25vh;
+    }
+}
