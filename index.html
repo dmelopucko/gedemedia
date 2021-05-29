@@ -5,92 +5,138 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="multimedia/logo-cruz.svg">
-        <title>GEDE media</title>
+        <title>GEDE media - Diseño & Comunicación</title>
         <meta title="GEDE media - Comunicá visualmente">
-        <meta name="description" content="Somos un estudio joven e itinerante dedicado al diseño, la fotografía, la comunicación visual y las redes sociales. Entregá un mensaje claro, nosotros te ayudamos.">
-        <meta name="keywords" content="diseño, social media, redes sociales, fotografía, motion graphics, web, marketing digital, google ads, ads, community management">
+        <meta name="description" content="Somos un estudio joven e itinerante, nacido en el sur de Buenos Aires. Nos dedicamos al diseño, la fotografía, las redes sociales y a crear contenidos visuales y audiovisuales. Entregá un mensaje claro, nosotros te ayudamos.">
+        <meta name="keywords" content="gede media, comunicar, comunicación, comunicación audiovisual, comunicación visual, audiovisual, diseño, diseño gráfico, diseño ux, diseño web, fotografía, animación, video, motion graphics, marketing digital, google ads, facebook ads, branding, packaging, diseño editorial, placas, flyer, social media, community management, community manager, editorial, consultoria, retoque fotográfico, retoque, tarjetas personales, pymes, emprendimiento, emprendedores, emprendedor, estudio de diseño, estudio de diseño gráfico, estudio fotográfico, estudio audiovisual, contenido audiovisual, contenido para redes sociales, social media starter pack, logotipo, logo, diseño de logo, diseño de packaging, marketing, ilustración, diseño responsvo, visual design, Quilmes, Berazategui, Buenos Aires, diseño Quilmes, diseño Berazategui, diseño Buenos Aires, fotógrafo Quilmes, fotógrafo Berazategui, fotógrafo Buenos Aires">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/800005af7f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
 
 
     <body>
-        <header>
-            <div>
-                <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="multimedia/logo-jaguarete.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo de GEDE media">
-                        GEDE media
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav container-fluid justify-content-center mr-auto">
-                        <li class="nav-item">
-                        <a class="nav-link" href="proyectos.html">Proyectos <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <div class="index--background">
+            <header>
+                <div>
+                    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="multimedia/logo-jaguarete.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo de GEDE media">
+                            GEDE media
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav container-fluid justify-content-center mr-auto">
+                            <li class="nav-item">
+                            <a class="nav-link" href="proyectos.html">Proyectos <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
         
-        <main class="main--index">
-            <section>
-                <div class="index container-fluid">
-                    <div class="row mx-auto" style="width: 90%">
-                        <div class="col-12">
-                            <h1>Entregá un mensaje claro.</h1><h1 class="negrita">Nosotros te ayudamos.</h1>
-                                <p>Somos un equipo dedicado al diseño, la fotografía y la comunicación visual.<br> Somos GEDE media, un estudio joven e itinerante.</p> 
-                            <!-- <button>Contactanos</button> -->
-                            <div>
-                                <a class="btn" href="contacto.html" role="button">¡Contactanos!</a>
+            <main class="main--index">
+                <section>
+                    <div class="index container-fluid">
+                        <div class="row mx-auto" style="width: 90%">
+                            <div class="col-12">
+                                <h1 data-aos="fade-down" data-aos-duration="2000">Somos GEDE media</h1>
+                                <div data-aos="fade-up" data-aos-duration="3000" class="gede--h2">
+                                    <h2>Entregá un mensaje claro.<br class="negrita">Nosotros te ayudamos.</h2>
+                                </div>
+                                    <p data-aos="fade-up" data-aos-duration="2500">Somos un equipo dedicado al diseño, la fotografía y la comunicación visual.<br> Somos GEDE media, un estudio joven e itinerante.</p> 
+                                <div data-aos="fade-up" data-aos-duration="2000">
+                                    <a class="btn" href="contacto.html" role="button">¡Contactanos!</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        </main>
-        
-        <footer class="footer container-fluid"> <!-- método BEM empleado en clases del footer (footer, footer__list, footer__links, footer__link) -->
-            <div class="footer__list container-fluid">
-                <div class="footer__links">
-                    <ul>
-                        <span>
-                            <a class="navbar-brand" href="index.html">
-                                <img src="multimedia/logo-cruz.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo de GEDE media">
-                            </a>
-                            GEDE media
-                        </span>
+                </section>
+            </main>
+            
+            <footer class="footer bg-dark">
+              <div class="container-fluid">
+                <div class="row mx-auto py-4" style="width: 90%">
+                  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="multimedia/logo-cruz.svg" alt="" width="20%" class="mb-3">
+                    <p class="text-muted">GEDE media. Comunicación visual. <br> Entregá un mensaje claro, nosotros te ayudamos.</p>
+                    <ul class="list-inline mt-4">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/gedeMEDIA" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                      <li class="list-inline-item"><a href="https://instagram.com/mediagede" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="https://www.behance.net/gedemedia" target="_blank" title="behance"><i class="fa fa-behance"></i></a></li>
                     </ul>
-                        <ul class="footer__links container-fluid">
-                        <li><a class="footer__link" href="gedemedia@gmail.com">gedemedia@gmail.com</a></li>
-                        <li><a class="footer__link" href="https://instagram.com/mediagede" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-                        <li><a class="footer__link" href="https://www.behance.net/gedemedia" target="_blank"><i class="fab fa-behance-square"></i></a></li>
-                        <li><a class="footer__link" href="https://www.facebook.com/gedeMEDIA" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                  </div>
+                  <div class="div--tablet col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Servicios</h6>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2"><a href="servicios.html" class="text-muted">Diseño</a></li>
+                      <li class="mb-2"><a href="servicios.html" class="text-muted">Fotografía</a></li>
+                      <li class="mb-2"><a href="servicios.html" class="text-muted">Audiovisual</a></li>
+                      <li class="mb-2"><a href="servicios.html" class="text-muted">Marketing digital</a></li>
                     </ul>
+                  </div>
+                  <div class="div--displaynone col-lg-2 col-md-6 mb-4 mb-lg-0">
+                      <div class="div--proyectos">
+                          <h6 class="text-uppercase font-weight-bold mb-4">Proyectos</h6>
+                          <ul class="list-unstyled mb-0">
+                              <li class="mb-2"><a href="proyectos.html" class="text-muted">Portfolio</a></li>
+                          </ul>
+                      </div>
+                      <div class="div--nosotros">
+                          <h6 class="text-uppercase font-weight-bold mb-4">Nosotros</h6>
+                          <ul class="list-unstyled mb-0">
+                              <li class="mb-2"><a href="nosotros.html" class="text-muted">Nuestros equipo</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Contacto</h6>
+                    <p class="text-muted mb-4">¿Listo para tu próximo proyecto? ¡Empecemos!</p>
+                    <form action="https://formspree.io/f/moqydenv" method="POST">
+                    <div class="p-1 rounded border">
+                      <div class="input-group">
+                        <input type="email" name="_replyto" placeholder="Ingresá tu mail" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                        <div class="input-group-append">
+                          <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  </div>
                 </div>
-                <div class="footer__copyright container-fluid">
-                    <small class="footer__small">© 2021 GEDE media. Buenos Aires, Argentina</small> 
+              </div>
+              <div class="footer--copyright bg-light py-4">
+                <div class="container text-center">
+                  <p class="mb-0 py-2">© 2021 GEDE media. Buenos Aires, Argentina.</p>
                 </div>
-            </div>
-        </footer>
+              </div>
+            </footer>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-    </body>
-
-</html>
+            <script src="js/wow.min.js"></script>
+            <script>
+            new WOW().init();
+            </script>
+            <script>
+              AOS.init();
+            </script>
+    
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+        </body>
+    
+    </html>
