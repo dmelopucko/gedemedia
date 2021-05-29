@@ -472,7 +472,8 @@ header div nav ul li a:hover {
 
 @media (max-width: 400px) {
   .main--index {
-    margin-bottom: 25vh; } }
+    margin-bottom: 30vmax;
+    height: 100vmax; } }
 
 /* Proyectos */
 .main--proyectos .proyectos {
@@ -570,6 +571,20 @@ header div nav ul li a:hover {
     width: 95%;
     margin-right: 0; }
 
+@media (max-width: 769px) {
+  .nosotros .nosotros__nosotros {
+    width: 75%; } }
+
+@media (max-width: 400px) {
+  .nosotros .nosotros__nosotros {
+    width: 100%; }
+  .nosotros .nosotros__what {
+    width: 100%;
+    margin-right: 0; }
+  .nosotros .nosotros__how {
+    width: 100%;
+    margin-right: 0; } }
+
 .nosotros__integrantes {
   margin-top: 8vh; }
 
@@ -646,7 +661,11 @@ header div nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  width: 100%; }
+
+.main--contacto {
+  width: 100%; }
 
 .contacto {
   padding-top: 15vh;

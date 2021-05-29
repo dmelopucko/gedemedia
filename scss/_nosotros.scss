@@ -17,6 +17,30 @@
     }
 }
 
+@media (max-width: 769px) {
+    .nosotros {
+        .nosotros__nosotros {
+            width: 75%;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .nosotros {
+        .nosotros__nosotros {
+            width: 100%;
+        }
+        .nosotros__what {
+            width: 100%;
+            margin-right: 0;
+        }
+        .nosotros__how {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+}
+
 .nosotros__integrantes {
     margin-top: 8vh;
 }
